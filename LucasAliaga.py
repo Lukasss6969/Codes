@@ -67,6 +67,7 @@ def imprimirOrdendeReparacion():
     else:
         input("ERROR EN RANGO DE DATOS INGRESADOS | 'ENTER' PARA CONTINUAR")
 while True:
+  os.system("cls")
     try:
         opcMenuPrincipal=int(input(menuPrincipal))
         if opcMenuPrincipal == 1:
